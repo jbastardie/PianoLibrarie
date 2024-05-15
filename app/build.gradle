@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'org.jetbrains.kotlin.android' version '1.9.23' apply false
     id 'maven-publish'
 }
 
@@ -44,7 +45,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 groupId = 'com.example.pianolibrarie'
-                artifactId = 'pianolibrarie'
+                artifactId = 'app'
                 version = '1.0'
             }
         }
