@@ -7,6 +7,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.example.pianolibrarie.R;
+
 // This class contains the NoteView to actually display music notes. The positions for this
 // note ares set by the parent (which should always be MusicBarView
 public class NoteView extends View
